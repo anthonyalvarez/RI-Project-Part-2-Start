@@ -1,6 +1,7 @@
 article {
   margin: 0 auto;
   max-width: 50em;
+  border-bottom: 1px solid #ddd;
 }
 
 body {
@@ -15,4 +16,17 @@ h1 {
 
 img {
   max-width: 100%;
+}
+
+/* 
+
+Zocial icon fonts
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+
+*/
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
 }
